@@ -19,7 +19,7 @@ public class ShoveBastard : MonoBehaviour
         {
 	    
 	        var left = Random.Range(0, 1) == 0;
-	        var force = Random.Range(0.02f, 0.03f);
+	        var force = Random.Range(0.04f, 0.07f);
 
             _rigidbody2D.AddForceAtPosition((left ? Vector2.left  : Vector2.right) * force, gameObject.transform.TransformPoint(0, 1, 0));
 

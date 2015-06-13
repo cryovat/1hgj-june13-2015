@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PlayerEngineController : MonoBehaviour
 {
+
     public KeyCode ignitionKey = KeyCode.W;
     
     private ParticleSystem _flare;
@@ -21,11 +22,24 @@ public class PlayerEngineController : MonoBehaviour
 	    if (Input.GetKey(ignitionKey))
 	    {
 	        _flare.enableEmission = true;
-            _rigidbody2D.AddForceAtPosition(Vector2.up * 1f, gameObject.transform.localPosition);
+            _rigidbody2D.AddForceAtPosition(gameObject.transform.parent.up, gameObject.transform.position);
 	    }
 	    else
 	    {
 	        _flare.enableEmission = false;
 	    } 
 	}
+
+
+
+    public void OnDrawGizmos()
+    {
+        var pos = gameObject.transform.position;
+
+        Gizmos.DrawLine(pos, pos + gameObject.transform.up);
+    }
+
+    
+
+
 }
