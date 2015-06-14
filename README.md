@@ -1,6 +1,6 @@
 # 1HGJ#9 Entry
 
-### Play it: [:rocket: Original](http://www.winterday.net/games/1hrgj/2015/june/13/) [:rocket: Post-compo build](http://www.winterday.net/games/1hrgj/2015/june/13/post-compo)
+### Play it: [:rocket: Original](http://www.winterday.net/games/1hrgj/2015/june/13/) [:rocket: Post-compo build](http://www.winterday.net/games/1hrgj/2015/june/13/post-compo) [:rocket: WebGL version](http://www.winterday.net/games/1hrgj/2015/june/13/post-compo/webgl)
 
 This is an entry for the [1 Hour Game Jam](http://weekjam.com/)  on June 13th 2015. Titled "Teamwork Rocket!"
 (guess what the theme was), the game lets two people control a :rocket: on an epic mission! And as a bonus,
